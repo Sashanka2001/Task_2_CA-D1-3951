@@ -27,12 +27,17 @@
             <button class="btn" onclick="appendToDisplay('3')">3</button>
             <button class="btn operator" onclick="appendToDisplay('-')">-</button>
 
+            <button class="btn" onclick="appendToDisplay('00')">00</button>
             <button class="btn" onclick="appendToDisplay('0')">0</button>
-            <button class="btn" onclick="clearDisplay()">C</button>
-            <button class="btn" onclick="calculateResult()">=</button>
-            <button class="btn operator" onclick="appendToDisplay('+')">+</button>
             <button class="btn" onclick="decimal('.')">.</button>
-            <button class="btn" onclick="deleteonebyone()">Delete</button>
+            <button class="btn operator plus-btn" onclick="appendToDisplay('+')">+</button> 
+            
+            <button class="btn delete-btn" onclick="deleteonebyone()">Delete</button>
+            <button class="btn clear-btn" onclick="clearDisplay()">C</button>
+            <button class="btn equals-btn" onclick="calculateResult()">=</button>
+             
+           
+            
         </div>
     </div>
 
